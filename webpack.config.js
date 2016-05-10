@@ -8,6 +8,8 @@ let configs = [
     output: {
       path: path.join(__dirname, 'dist', 'js'),
       filename: 'dropup.js',
+      library: 'Dropup',
+      libraryTarget: 'umd',
     },
     module: {
       loaders: [

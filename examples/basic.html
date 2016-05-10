@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<h1>
+  Click me!
+  <input class="h1-input" placeholder="Search">
+</h1>
+
+<link rel="stylesheet" href="../dist/css/dropup-default.theme.css">
+<script src="../dist/js/dropup.js"></script>
+<script>
+  let dropup = new Dropup(document.querySelector('.h1-input'))
+  dropup.setContent('<p>hello!</p>')
+  dropup.open()
+</script>
